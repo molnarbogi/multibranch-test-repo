@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hey') {
+            steps {
+                echo 'Hey you are a such a good person!'
+            }
+        }
+        stage('ily') {
+            steps {
+                echo 'I Love You
+            }
+        }
+    }
+}
