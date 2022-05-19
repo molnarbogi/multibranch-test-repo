@@ -22,5 +22,11 @@ pipeline {
                 echo 'I Love You'
             }
         }
+        stage('meow') {
+            steps {
+                echo 'I Meow You'
+            }
+        }
+
     }
 }
